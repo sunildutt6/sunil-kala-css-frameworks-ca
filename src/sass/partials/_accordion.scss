@@ -1,0 +1,17 @@
+.d-md-none.accordion {
+  margin-bottom: 5rem;
+}
+
+.d-md-none.accordion > .card {
+  box-shadow: 0 5px 5px $colour-tab-shadow;
+
+}
+
+.card__Social--icon {
+  text-transform: uppercase;
+  color: $colour-font-header;
+}
+
+.card-header {
+    border-bottom: 1px solid $colour-primary;
+}

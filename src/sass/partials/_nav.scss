@@ -1,0 +1,44 @@
+.navbar {
+  background: $colour-bg-header;
+  color: $colour-primary;
+  padding: 25px;
+ }
+
+
+.navbar-brand {
+  font-family: $heading-font-family;
+  color: $colour-primary !important;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 60px;
+}
+button.navbar-toggler {
+  border: none;
+}
+
+
+.nav__link--top {
+  margin: 0.75rem;
+  padding: 5px 25px;
+ 
+
+  &:hover {
+    background: $white;
+  }
+  @media (min-width: 990px) {
+    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+}
+.nav__link--bottom {
+  margin-bottom: 2rem;
+  @media (min-width: 990px) {
+    margin: 0;
+  }
+}
+.nav__link--top.active {
+  background: $white; 
+ 
+
+}

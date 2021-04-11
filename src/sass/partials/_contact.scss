@@ -1,0 +1,48 @@
+.order-md-1.col-md {
+  padding: 1.5rem;
+  background: #efefef;
+  margin-top: 2rem;
+  box-shadow: 0 10px 10px #707070;
+  border-radius: $border-radius;
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+}
+
+.form-label {
+  margin-bottom: 0;
+}
+.form-control {
+  border: none;
+  background: $white;
+}
+.input-group-text {
+  background: darken($white, 30%);
+  color: $white;
+}
+.btn.btn-submit {
+  @extend .btn-common;
+  font-size: 22px;
+  font-weight: 700;
+  background: $colour-secondary;
+  color: $white;
+}
+
+.form-check-label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+}
+.d-flex.order-md-2.col-md,
+.list__item--info {
+  color: $colour-secondary;
+}
+
+.form-check-input {
+  opacity: 1;
+  background: pink;
+}

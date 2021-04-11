@@ -1,0 +1,23 @@
+.pagination {
+  margin-bottom: 2rem;
+}
+.card__margin {
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+}
+
+.btn-common{
+    width: 100%;
+    border: none;
+  
+}
+.btn.btn-more {
+  @extend .btn-common;
+  text-transform: uppercase;
+  background: linear-gradient(to right, $colour-primary 80% ,$colour-secondary 20%);
+  color:$white;
+
+}

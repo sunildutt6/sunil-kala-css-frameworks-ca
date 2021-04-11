@@ -1,0 +1,36 @@
+//colours
+
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+
+$colour-font-header: #0a0a0a;
+$white: #ffffff;
+$colour-bg-header: #efefef;
+$grey-white: #c7c7c7;
+$colour-tab-shadow: #d1d1d1;
+
+$btn-border-radius: 5px;
+$h1-font-size: 34px;
+$navbar-light-color: $colour-font-header;
+$input-color: $colour-secondary;
+$border-radius: 5px;
+
+$theme-colors: (
+  "white": $white,
+  "primary": $colour-primary,
+);
+
+$font-family-base: "Lato", sans-serif;
+$heading-font-family: "Playfair Display", serif;
+
+$tablet-width: 990px;
+
+$card-cap-bg: white;
+
+$card-border-radius: 12px;
+$card-border-color: white;
+
+.btn-common {
+  width: 100%;
+  border: none;
+}
